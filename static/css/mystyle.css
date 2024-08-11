@@ -1,0 +1,28 @@
+.product{
+    height: 200px;
+    /* width: 23%; */
+    border: 2px solid black;
+    display: flex;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.myrow1{
+    height: 80px;
+    
+    border: solid black 2px;
+}
+
+.myrow2{
+    height: 100%;
+    border: solid black 2px;
+}
+
+.myrow3{
+    height: 150px;
+    border: solid black 2px;
+}
+
+.box{
+    border: 2px solid black;
+}

@@ -1,0 +1,12 @@
+breakpoints
+============
+
+xs upto 575px  (extra small)
+sm  576 - 767px  (small)
+md  768 - 991px  (medium)
+lg  992- 1199px
+x1  1200 - 1399
+xx1 1400 -
+
+
+col3 ok for md and large

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../static/css/mystyle.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="myrow1 row">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="register.html">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class=" myrow2 row">
+            <div class="box col-2  ">
+                <h4 class="mt-4">Filter By Category</h4>
+                <hr>
+                <a href="">Mobile</a><br>
+                <a href="">Clothing</a><br>
+                <a href="">Accessories</a><br>
+                <h4 class="mt-4">Filter By Price</h4>
+                <hr>
+                <form action="">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Min</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="col-form-label" name="min" style="width: 150px;">
+                    </div>
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Max</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="col-form-label" name="max" style="width: 150px;">
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-warning  mt-2">Search</button>
+
+                    </div>
+                </form>
+                <h4 class="mt-2">Sort By Price</h4>
+                <a href="">Low to High</a><br>
+                <a href="">High to Low</a>
+
+            </div>
+            <div class="box col-10">
+                <div class="row">
+                   <form action="" class="col-4 mt-5 mx-auto">
+                    <h1>Registration</h1>
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control">
+                        </div><br>
+                        <input type="submit"  class="mt-2 btn btn-primary" value="Register">
+                        &nbsp;&nbsp;
+                        Already a user ? <a href="login.html">Sign in</a>
+
+                      
+
+                   </form>
+                </div>
+            </div>
+        </div>
+        <div class="myrow3 row">
+            <div class="box col-4">Address: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eum corporis
+                cumque eaque ratione blanditiis impedit porro asperiores voluptas aspernatur a at quae nisi, quam
+                tempore aliquid nihil quisquam nemo.</div>
+            <div class="box col-4">
+                Contact US: <br>
+                Phone:5446444864 <br>
+                E-mail:office@gmail.com
+            </div>
+            <div class="box col-4">
+                <a href=""> <i class="bi bi-facebook" style="font-size: 20px;"></i></a><br>
+                <a href=""> <i class="bi bi-whatsapp" style="font-size: 20px;"></i></a><br>
+                <a href=""> <i class="bi bi-twitter" style="font-size: 20px;"></i></a><br>
+
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
